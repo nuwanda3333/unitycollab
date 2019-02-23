@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 60001582}
   - component: {fileID: 60001584}
   - component: {fileID: 60001583}
+  - component: {fileID: 60001585}
   m_Layer: 0
   m_Name: WoodenWall (27)
   m_TagString: Untagged
@@ -142,7 +143,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 347.30957}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 30
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &60001583
 MeshRenderer:
@@ -189,6 +190,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60001581}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &60001585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60001581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &87284715
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +214,7 @@ GameObject:
   - component: {fileID: 87284716}
   - component: {fileID: 87284718}
   - component: {fileID: 87284717}
+  - component: {fileID: 87284719}
   m_Layer: 0
   m_Name: WoodenWall (9)
   m_TagString: Untagged
@@ -219,7 +234,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 223.12845}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 23
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &87284717
 MeshRenderer:
@@ -266,6 +281,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87284715}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &87284719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87284715}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &137604360
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,6 +305,7 @@ GameObject:
   - component: {fileID: 137604361}
   - component: {fileID: 137604363}
   - component: {fileID: 137604362}
+  - component: {fileID: 137604364}
   m_Layer: 0
   m_Name: WoodenWall (16)
   m_TagString: Untagged
@@ -296,7 +325,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 18
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &137604362
 MeshRenderer:
@@ -343,6 +372,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137604360}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &137604364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137604360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,6 +465,7 @@ GameObject:
   - component: {fileID: 198455384}
   - component: {fileID: 198455386}
   - component: {fileID: 198455385}
+  - component: {fileID: 198455387}
   m_Layer: 0
   m_Name: WoodenWall (4)
   m_TagString: Untagged
@@ -442,7 +485,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &198455385
 MeshRenderer:
@@ -489,6 +532,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198455383}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &198455387
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198455383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &199222953
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,6 +556,7 @@ GameObject:
   - component: {fileID: 199222954}
   - component: {fileID: 199222956}
   - component: {fileID: 199222955}
+  - component: {fileID: 199222957}
   m_Layer: 0
   m_Name: WoodenWall (35)
   m_TagString: Untagged
@@ -519,7 +576,7 @@ Transform:
   m_LocalScale: {x: 100.0001, y: 100, z: 301.34296}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 38
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &199222955
 MeshRenderer:
@@ -566,6 +623,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199222953}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &199222957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199222953}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1001 &211037852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -667,6 +737,7 @@ GameObject:
   - component: {fileID: 256840847}
   - component: {fileID: 256840849}
   - component: {fileID: 256840848}
+  - component: {fileID: 256840850}
   m_Layer: 0
   m_Name: WoodenWall (2)
   m_TagString: Untagged
@@ -686,7 +757,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &256840848
 MeshRenderer:
@@ -733,6 +804,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256840846}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &256840850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256840846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &325658563
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +828,7 @@ GameObject:
   - component: {fileID: 325658564}
   - component: {fileID: 325658566}
   - component: {fileID: 325658565}
+  - component: {fileID: 325658567}
   m_Layer: 0
   m_Name: WoodenWall (6)
   m_TagString: Untagged
@@ -763,7 +848,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &325658565
 MeshRenderer:
@@ -810,6 +895,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325658563}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &325658567
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325658563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &393884622
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +919,7 @@ GameObject:
   - component: {fileID: 393884623}
   - component: {fileID: 393884625}
   - component: {fileID: 393884624}
+  - component: {fileID: 393884626}
   m_Layer: 0
   m_Name: WoodenWall (23)
   m_TagString: Untagged
@@ -840,7 +939,7 @@ Transform:
   m_LocalScale: {x: 100.0001, y: 100, z: 227.0725}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 26
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &393884624
 MeshRenderer:
@@ -887,6 +986,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393884622}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &393884626
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393884622}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &433241673
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,6 +1010,7 @@ GameObject:
   - component: {fileID: 433241674}
   - component: {fileID: 433241676}
   - component: {fileID: 433241675}
+  - component: {fileID: 433241677}
   m_Layer: 0
   m_Name: WoodenWall (38)
   m_TagString: Untagged
@@ -917,7 +1030,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 106.41915}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 41
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &433241675
 MeshRenderer:
@@ -964,6 +1077,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433241673}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &433241677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433241673}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &465072349
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,6 +1101,7 @@ GameObject:
   - component: {fileID: 465072350}
   - component: {fileID: 465072352}
   - component: {fileID: 465072351}
+  - component: {fileID: 465072353}
   m_Layer: 0
   m_Name: WoodenWall (32)
   m_TagString: Untagged
@@ -994,7 +1121,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 330.66632}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 35
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &465072351
 MeshRenderer:
@@ -1041,6 +1168,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465072349}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &465072353
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465072349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &498320563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,6 +1192,7 @@ GameObject:
   - component: {fileID: 498320564}
   - component: {fileID: 498320566}
   - component: {fileID: 498320565}
+  - component: {fileID: 498320567}
   m_Layer: 0
   m_Name: WoodenWall (31)
   m_TagString: Untagged
@@ -1071,7 +1212,7 @@ Transform:
   m_LocalScale: {x: 100.0001, y: 100, z: 202}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 34
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &498320565
 MeshRenderer:
@@ -1118,6 +1259,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498320563}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &498320567
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498320563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!4 &522651443 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce,
@@ -1306,6 +1460,7 @@ GameObject:
   - component: {fileID: 591148584}
   - component: {fileID: 591148586}
   - component: {fileID: 591148585}
+  - component: {fileID: 591148587}
   m_Layer: 0
   m_Name: WoodenWall (12)
   m_TagString: Untagged
@@ -1325,7 +1480,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &591148585
 MeshRenderer:
@@ -1372,6 +1527,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591148583}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &591148587
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591148583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &609478286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,6 +1551,7 @@ GameObject:
   - component: {fileID: 609478287}
   - component: {fileID: 609478289}
   - component: {fileID: 609478288}
+  - component: {fileID: 609478290}
   m_Layer: 0
   m_Name: WoodenWall (36)
   m_TagString: Untagged
@@ -1402,7 +1571,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 105.22427}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 39
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &609478288
 MeshRenderer:
@@ -1449,6 +1618,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609478286}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &609478290
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609478286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
+--- !u!1 &768036536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7237535799058402396, guid: 885c7cb307c4ef749b4068d012dc954c,
+    type: 3}
+  m_PrefabInstance: {fileID: 5110003032705118058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &768036537
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768036536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &784087773
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,6 +1661,7 @@ GameObject:
   - component: {fileID: 784087774}
   - component: {fileID: 784087776}
   - component: {fileID: 784087775}
+  - component: {fileID: 784087777}
   m_Layer: 0
   m_Name: WoodenWall (28)
   m_TagString: Untagged
@@ -1479,7 +1681,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 218.13461}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 31
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &784087775
 MeshRenderer:
@@ -1526,6 +1728,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784087773}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &784087777
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784087773}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!4 &848443153 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8263108930787039301, guid: 6c97a6efd99f2354281b827b4a350ed0,
@@ -1543,6 +1758,7 @@ GameObject:
   - component: {fileID: 926536563}
   - component: {fileID: 926536565}
   - component: {fileID: 926536564}
+  - component: {fileID: 926536566}
   m_Layer: 0
   m_Name: WoodenWall (24)
   m_TagString: Untagged
@@ -1562,7 +1778,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 232.86072}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 27
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &926536564
 MeshRenderer:
@@ -1609,6 +1825,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926536562}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &926536566
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926536562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &932783371
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,6 +1849,7 @@ GameObject:
   - component: {fileID: 932783372}
   - component: {fileID: 932783374}
   - component: {fileID: 932783373}
+  - component: {fileID: 932783375}
   m_Layer: 0
   m_Name: WoodenWall (13)
   m_TagString: Untagged
@@ -1639,7 +1869,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &932783373
 MeshRenderer:
@@ -1686,6 +1916,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932783371}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &932783375
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932783371}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &968314422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1697,6 +1940,7 @@ GameObject:
   - component: {fileID: 968314423}
   - component: {fileID: 968314425}
   - component: {fileID: 968314424}
+  - component: {fileID: 968314426}
   m_Layer: 0
   m_Name: WoodenWall (39)
   m_TagString: Untagged
@@ -1716,7 +1960,7 @@ Transform:
   m_LocalScale: {x: 100.0001, y: 100, z: 660.41046}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 42
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &968314424
 MeshRenderer:
@@ -1763,6 +2007,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968314422}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &968314426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968314422}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1001187403
 GameObject:
   m_ObjectHideFlags: 0
@@ -1774,6 +2031,7 @@ GameObject:
   - component: {fileID: 1001187404}
   - component: {fileID: 1001187406}
   - component: {fileID: 1001187405}
+  - component: {fileID: 1001187407}
   m_Layer: 0
   m_Name: WoodenWall (22)
   m_TagString: Untagged
@@ -1793,7 +2051,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 25
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1001187405
 MeshRenderer:
@@ -1840,6 +2098,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001187403}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1001187407
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001187403}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1001 &1014489851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1916,6 +2187,7 @@ GameObject:
   - component: {fileID: 1055246074}
   - component: {fileID: 1055246076}
   - component: {fileID: 1055246075}
+  - component: {fileID: 1055246077}
   m_Layer: 0
   m_Name: WoodenWall (3)
   m_TagString: Untagged
@@ -1935,7 +2207,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1055246075
 MeshRenderer:
@@ -1982,6 +2254,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055246073}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1055246077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055246073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1112988289
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,6 +2278,7 @@ GameObject:
   - component: {fileID: 1112988290}
   - component: {fileID: 1112988292}
   - component: {fileID: 1112988291}
+  - component: {fileID: 1112988293}
   m_Layer: 0
   m_Name: WoodenWall (18)
   m_TagString: Untagged
@@ -2012,7 +2298,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1112988291
 MeshRenderer:
@@ -2059,6 +2345,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112988289}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1112988293
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112988289}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1124545564
 GameObject:
   m_ObjectHideFlags: 0
@@ -2070,6 +2369,7 @@ GameObject:
   - component: {fileID: 1124545565}
   - component: {fileID: 1124545567}
   - component: {fileID: 1124545566}
+  - component: {fileID: 1124545568}
   m_Layer: 0
   m_Name: WoodenWall (11)
   m_TagString: Untagged
@@ -2089,7 +2389,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1124545566
 MeshRenderer:
@@ -2136,6 +2436,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124545564}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1124545568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124545564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1124788439
 GameObject:
   m_ObjectHideFlags: 0
@@ -2147,6 +2460,7 @@ GameObject:
   - component: {fileID: 1124788440}
   - component: {fileID: 1124788442}
   - component: {fileID: 1124788441}
+  - component: {fileID: 1124788443}
   m_Layer: 0
   m_Name: WoodenWall (29)
   m_TagString: Untagged
@@ -2166,7 +2480,7 @@ Transform:
   m_LocalScale: {x: 100.0001, y: 100, z: 227.0725}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 32
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &1124788441
 MeshRenderer:
@@ -2213,6 +2527,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124788439}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1124788443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124788439}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1197198663
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,6 +2551,7 @@ GameObject:
   - component: {fileID: 1197198664}
   - component: {fileID: 1197198666}
   - component: {fileID: 1197198665}
+  - component: {fileID: 1197198667}
   m_Layer: 0
   m_Name: WoodenWall (8)
   m_TagString: Untagged
@@ -2243,7 +2571,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1197198665
 MeshRenderer:
@@ -2290,6 +2618,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197198663}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1197198667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197198663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1205015206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,6 +2642,7 @@ GameObject:
   - component: {fileID: 1205015207}
   - component: {fileID: 1205015209}
   - component: {fileID: 1205015208}
+  - component: {fileID: 1205015210}
   m_Layer: 0
   m_Name: WoodenWall (33)
   m_TagString: Untagged
@@ -2320,7 +2662,7 @@ Transform:
   m_LocalScale: {x: 100.0001, y: 100, z: 199}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 36
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &1205015208
 MeshRenderer:
@@ -2367,6 +2709,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205015206}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1205015210
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205015206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1405365673
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,6 +2733,7 @@ GameObject:
   - component: {fileID: 1405365674}
   - component: {fileID: 1405365676}
   - component: {fileID: 1405365675}
+  - component: {fileID: 1405365677}
   m_Layer: 0
   m_Name: WoodenWall (1)
   m_TagString: Untagged
@@ -2397,7 +2753,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1405365675
 MeshRenderer:
@@ -2444,6 +2800,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405365673}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1405365677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405365673}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1406489949
 GameObject:
   m_ObjectHideFlags: 0
@@ -2455,6 +2824,7 @@ GameObject:
   - component: {fileID: 1406489950}
   - component: {fileID: 1406489952}
   - component: {fileID: 1406489951}
+  - component: {fileID: 1406489953}
   m_Layer: 0
   m_Name: WoodenWall (21)
   m_TagString: Untagged
@@ -2474,7 +2844,7 @@ Transform:
   m_LocalScale: {x: 100.0001, y: 100, z: 801.99457}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 24
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &1406489951
 MeshRenderer:
@@ -2521,6 +2891,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406489949}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1406489953
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406489949}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1410114050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2532,6 +2915,7 @@ GameObject:
   - component: {fileID: 1410114051}
   - component: {fileID: 1410114053}
   - component: {fileID: 1410114052}
+  - component: {fileID: 1410114054}
   m_Layer: 0
   m_Name: WoodenWall (5)
   m_TagString: Untagged
@@ -2551,7 +2935,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1410114052
 MeshRenderer:
@@ -2598,6 +2982,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410114050}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1410114054
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410114050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1451916071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2609,6 +3006,7 @@ GameObject:
   - component: {fileID: 1451916072}
   - component: {fileID: 1451916074}
   - component: {fileID: 1451916073}
+  - component: {fileID: 1451916075}
   m_Layer: 0
   m_Name: WoodenWall (7)
   m_TagString: Untagged
@@ -2628,7 +3026,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1451916073
 MeshRenderer:
@@ -2675,6 +3073,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451916071}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1451916075
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451916071}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1474392477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2686,6 +3097,7 @@ GameObject:
   - component: {fileID: 1474392478}
   - component: {fileID: 1474392480}
   - component: {fileID: 1474392479}
+  - component: {fileID: 1474392481}
   m_Layer: 0
   m_Name: WoodenWall (30)
   m_TagString: Untagged
@@ -2705,7 +3117,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 330}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 33
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1474392479
 MeshRenderer:
@@ -2752,6 +3164,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474392477}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1474392481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474392477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1486932887
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,6 +3188,7 @@ GameObject:
   - component: {fileID: 1486932888}
   - component: {fileID: 1486932890}
   - component: {fileID: 1486932889}
+  - component: {fileID: 1486932891}
   m_Layer: 0
   m_Name: WoodenWall (34)
   m_TagString: Untagged
@@ -2782,7 +3208,7 @@ Transform:
   m_LocalScale: {x: 100.0001, y: 100, z: 100.10945}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 37
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &1486932889
 MeshRenderer:
@@ -2829,6 +3255,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486932887}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1486932891
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486932887}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1502146058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2840,6 +3279,7 @@ GameObject:
   - component: {fileID: 1502146059}
   - component: {fileID: 1502146061}
   - component: {fileID: 1502146060}
+  - component: {fileID: 1502146062}
   m_Layer: 0
   m_Name: WoodenWall (26)
   m_TagString: Untagged
@@ -2859,7 +3299,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 422}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 29
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1502146060
 MeshRenderer:
@@ -2906,6 +3346,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502146058}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1502146062
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502146058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1535132683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2917,6 +3370,7 @@ GameObject:
   - component: {fileID: 1535132684}
   - component: {fileID: 1535132686}
   - component: {fileID: 1535132685}
+  - component: {fileID: 1535132687}
   m_Layer: 0
   m_Name: WoodenWall (17)
   m_TagString: Untagged
@@ -2936,7 +3390,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1535132685
 MeshRenderer:
@@ -2983,6 +3437,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535132683}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1535132687
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535132683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1668624306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2994,6 +3461,7 @@ GameObject:
   - component: {fileID: 1668624307}
   - component: {fileID: 1668624309}
   - component: {fileID: 1668624308}
+  - component: {fileID: 1668624310}
   m_Layer: 0
   m_Name: WoodenWall (37)
   m_TagString: Untagged
@@ -3013,7 +3481,7 @@ Transform:
   m_LocalScale: {x: 100.0001, y: 100, z: 801.99457}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 40
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &1668624308
 MeshRenderer:
@@ -3060,6 +3528,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668624306}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1668624310
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668624306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1907320280
 GameObject:
   m_ObjectHideFlags: 0
@@ -3071,6 +3552,7 @@ GameObject:
   - component: {fileID: 1907320281}
   - component: {fileID: 1907320283}
   - component: {fileID: 1907320282}
+  - component: {fileID: 1907320284}
   m_Layer: 0
   m_Name: WoodenWall (20)
   m_TagString: Untagged
@@ -3090,7 +3572,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 22
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1907320282
 MeshRenderer:
@@ -3137,6 +3619,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907320280}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1907320284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907320280}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1909956791
 GameObject:
   m_ObjectHideFlags: 0
@@ -3148,6 +3643,7 @@ GameObject:
   - component: {fileID: 1909956792}
   - component: {fileID: 1909956794}
   - component: {fileID: 1909956793}
+  - component: {fileID: 1909956795}
   m_Layer: 0
   m_Name: WoodenWall (15)
   m_TagString: Untagged
@@ -3167,7 +3663,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1909956793
 MeshRenderer:
@@ -3214,6 +3710,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909956791}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1909956795
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909956791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &1916571362
 GameObject:
   m_ObjectHideFlags: 0
@@ -3225,6 +3734,7 @@ GameObject:
   - component: {fileID: 1916571363}
   - component: {fileID: 1916571365}
   - component: {fileID: 1916571364}
+  - component: {fileID: 1916571366}
   m_Layer: 0
   m_Name: WoodenWall (25)
   m_TagString: Untagged
@@ -3244,7 +3754,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 334.18527}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 28
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1916571364
 MeshRenderer:
@@ -3291,6 +3801,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916571362}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &1916571366
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916571362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
+--- !u!1 &2010417065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1898706786189263453, guid: 6c97a6efd99f2354281b827b4a350ed0,
+    type: 3}
+  m_PrefabInstance: {fileID: 211037852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2010417066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010417065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &2030579191
 GameObject:
   m_ObjectHideFlags: 0
@@ -3302,6 +3844,7 @@ GameObject:
   - component: {fileID: 2030579192}
   - component: {fileID: 2030579194}
   - component: {fileID: 2030579193}
+  - component: {fileID: 2030579195}
   m_Layer: 0
   m_Name: WoodenWall (10)
   m_TagString: Untagged
@@ -3321,7 +3864,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2030579193
 MeshRenderer:
@@ -3368,6 +3911,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030579191}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &2030579195
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030579191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &2037960672
 GameObject:
   m_ObjectHideFlags: 0
@@ -3379,6 +3935,7 @@ GameObject:
   - component: {fileID: 2037960673}
   - component: {fileID: 2037960675}
   - component: {fileID: 2037960674}
+  - component: {fileID: 2037960676}
   m_Layer: 0
   m_Name: WoodenWall (19)
   m_TagString: Untagged
@@ -3398,7 +3955,7 @@ Transform:
   m_LocalScale: {x: 25.95798, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2037960674
 MeshRenderer:
@@ -3445,6 +4002,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2037960672}
   m_Mesh: {fileID: 4300000, guid: bfd103ed879c43a4d8413f1f59aecd12, type: 3}
+--- !u!65 &2037960676
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037960672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008000004, y: 0.024999999, z: 0.040000018}
+  m_Center: {x: 3.6379788e-10, y: 0.012499999, z: 0.0000000018626451}
 --- !u!1 &2040070338
 GameObject:
   m_ObjectHideFlags: 0
@@ -3475,7 +4045,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 848443153}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &2040070340
 MeshRenderer:
@@ -3572,7 +4142,7 @@ PrefabInstance:
     - target: {fileID: 35376465883982144, guid: 885c7cb307c4ef749b4068d012dc954c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 35376465883982144, guid: 885c7cb307c4ef749b4068d012dc954c,
         type: 3}
