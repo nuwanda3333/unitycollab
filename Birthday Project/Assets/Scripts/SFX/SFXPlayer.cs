@@ -28,7 +28,7 @@ public class SFXPlayer : MonoBehaviour
     public void PlayNext()
     {
         // throw error if we forgot to fill array in editor, hopefully we'll hit at least one pickup before deploying :)
-        if (clips.Length == 0) throw new IndexOutOfRangeException("Empty sounds array in SFXPlayer!");
+        if (clips.Length == 0) throw new IndexOutOfRangeException("Empty clips array in SFXPlayer!");
 
         // prepare and play AudioSource in the pool and increment index;
         audioSrcPool[poolIndex].Stop();
