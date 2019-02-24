@@ -1,7 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/**
+ * Collectibles.cs - a collectible script that fires off a sound event and runs particles upon collision
+ * 
+ * NOTES: We disable the renderer so that we can leave the game object around while the particles are running
+ * We use particlesLifeTime to give the particles some time after trigger has been entered.
+ * A bool isAlive is used to signify the collectible can be collected, i.e. the effects will be run.
+ * After trigger has been entered we flip isAlive to false, thus preventing the effects from being run again 
+ * if the trigger were to be entered again after the initial "collision"
+ * 
+ * Random quote: "Zed's dead, baby, Zed's dead." - Bruce Willis in Pulp Fiction 
+ */
+
 using UnityEngine;
 using Events;
+
 
 public class Collectible : MonoBehaviour
 {
@@ -14,7 +25,6 @@ public class Collectible : MonoBehaviour
     // set to false once effects are being run to prevent multiple effects running from single collectible
     bool isAlive = true;
 
-    // using this to hide the mesh while still leaving the collectible around for the particles to play
     new MeshRenderer renderer;
 
     ParticleSystem particles;

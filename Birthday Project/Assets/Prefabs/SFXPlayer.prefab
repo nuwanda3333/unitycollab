@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1663052979656555452}
   - component: {fileID: 1663052979656555453}
+  - component: {fileID: 4810851650612330327}
   - component: {fileID: 1663052979656555450}
   - component: {fileID: 1663052979656555393}
   - component: {fileID: 1663052979656555454}
@@ -47,12 +48,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a24dfceb8d18e49abd20061f0efc8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: cbcf9c0b50b1bd743aac2ff4ba573cd0, type: 2}
+  gameEvent: {fileID: 11400000, guid: 2a96c66c1c8a48440a63c1c0bcb6f626, type: 2}
   response:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1663052979656555450}
         m_MethodName: PlayNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &4810851650612330327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663052979656555451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a24dfceb8d18e49abd20061f0efc8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: cbcf9c0b50b1bd743aac2ff4ba573cd0, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1663052979656555450}
+        m_MethodName: PlayRandom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
