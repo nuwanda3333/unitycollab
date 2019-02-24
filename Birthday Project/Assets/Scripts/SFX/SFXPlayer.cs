@@ -2,12 +2,13 @@
 using UnityEngine;
 
 
+[RequireComponent(typeof(AudioSource))]
 public class SFXPlayer : MonoBehaviour
 {
     // sounds entered from editor
     public AudioClip[] clips;
 
-    public AudioSource[] audioSrcPool;
+    AudioSource[] audioSrcPool;
 
     // keeps track of where we are in clips array
     int index = 0;
@@ -18,6 +19,7 @@ public class SFXPlayer : MonoBehaviour
 
     private void Start()
     {
+        // grab local AudioSource to use them as a pool
         audioSrcPool = GetComponents<AudioSource>();
     }
 
