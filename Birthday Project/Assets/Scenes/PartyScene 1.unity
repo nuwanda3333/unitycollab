@@ -17182,6 +17182,67 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1368382618}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1410563298
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1967622035}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_Name
+      value: 40oz beer black
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.763
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000020841508
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.30108848
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000006580498
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9535963
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6823688
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b4c782ea515a5142aa31f27f160bf52, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b251ff43c582fc546bebe85e70f68b3e, type: 3}
 --- !u!1 &1449707221
 GameObject:
   m_ObjectHideFlags: 0
