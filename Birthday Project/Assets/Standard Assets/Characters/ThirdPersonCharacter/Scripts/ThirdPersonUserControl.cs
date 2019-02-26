@@ -1,4 +1,9 @@
-using System;
+/**
+ * Unity Standard Assets ThirdPersonUserControl
+ * 
+ * Only change was to invert the logic of the left shift key so that now walking is the default and running
+ * is done when you hold down the left shift - Andrej
+ */
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
@@ -64,7 +69,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             }
 #if !MOBILE_INPUT
 			// walk speed multiplier
-	        if (Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
+            // NOTE: inverted left shift input so that he walks by default
+	        if (!Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
 #endif
 
             // pass all parameters to the character control script
