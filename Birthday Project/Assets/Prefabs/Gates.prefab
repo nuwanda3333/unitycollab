@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3832577621343857535}
   - component: {fileID: 4706925126950866481}
   - component: {fileID: 5019637192036473527}
+  - component: {fileID: 7071705627794561835}
   m_Layer: 0
   m_Name: Gates
   m_TagString: Untagged
@@ -77,3 +78,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7071705627794561835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479886580123767367}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0000014, y: 2.5, z: 0.3000002}
+  m_Center: {x: 0, y: 1.25, z: -0.000000052154064}
