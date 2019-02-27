@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 3606081524085035619}
   - component: {fileID: 3606081524085035617}
   - component: {fileID: 3606081524085035618}
+  - component: {fileID: 1962272712}
+  - component: {fileID: 1962272713}
+  - component: {fileID: 1962272714}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -43,7 +46,8 @@ AudioSource:
   m_GameObject: {fileID: 3606081524085035630}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 243960008276573060, guid: 4552b65de9e0944f78a1ed1a800b61cb,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 7e300218032cc7c43a9347547e07501f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.671
@@ -204,6 +208,35 @@ MonoBehaviour:
   response:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1962272713}
+        m_MethodName: TemporaryFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 8
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1962272712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3606081524085035630}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a24dfceb8d18e49abd20061f0efc8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: bcb8a3b1a727e463cafe29514a5264e7, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
       - m_Target: {fileID: 3606081524085035629}
         m_MethodName: Stop
         m_Mode: 1
@@ -217,3 +250,32 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1962272713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3606081524085035630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b59c2035dc0e54ca9ef89833d26332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quietFor: 8
+  level: 0.05
+  transitionTime: 0.4
+--- !u!114 &1962272714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3606081524085035630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 928d6d2b596949249817eeb90daef1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blowingCandles: {fileID: 0}
+  candleBlown: {fileID: 0}
