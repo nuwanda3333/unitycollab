@@ -1,8 +1,10 @@
 /**
  * Unity Standard Assets ThirdPersonUserControl
  * 
- * Only change was to invert the logic of the left shift key so that now walking is the default and running
+ * Inverted the logic of the left shift key so that now walking is the default and running
  * is done when you hold down the left shift - Andrej
+ * 
+ * Also added a bool to prevent running when we want to disable it.
  */
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
@@ -12,6 +14,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
     [RequireComponent(typeof (ThirdPersonCharacter))]
     public class ThirdPersonUserControl : MonoBehaviour
     {
+        public bool dontRun;
+
         private ThirdPersonCharacter m_Character; // A reference to the ThirdPersonCharacter on the object
         private Transform m_Cam;                  // A reference to the main camera in the scenes transform
         private Vector3 m_CamForward;             // The current forward direction of the camera
@@ -70,7 +74,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 #if !MOBILE_INPUT
 			// walk speed multiplier
             // NOTE: inverted left shift input so that he walks by default
-	        if (!Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
+	        if (dontRun || !Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
 #endif
 
             // pass all parameters to the character control script
