@@ -2333,9 +2333,9 @@ GameObject:
   - component: {fileID: 7511222140362475956}
   - component: {fileID: 1954773756920140919}
   - component: {fileID: 288860077468832488}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ThirdPersonController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2419,6 +2419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 521b611700410be45810047f0a74e899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dontRun: 0
 --- !u!114 &288860077468832488
 MonoBehaviour:
   m_ObjectHideFlags: 0
