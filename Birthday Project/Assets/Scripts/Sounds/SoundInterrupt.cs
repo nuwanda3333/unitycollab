@@ -1,5 +1,7 @@
 ﻿/**
  * Quick last minute hack to fade out the song for quietFor seconds, then restore level to previous volume
+ * 
+ * Random quote: "Now there's not even breathing room between pleasure and pain" - Aerosmith
  */
 
 using System.Collections;
